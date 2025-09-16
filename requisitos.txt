@@ -1,0 +1,10 @@
+HTML
+-prolijo y que contenga SEO
+-bootstrap o Grid con Flex
+
+CSS
+- estilos css personalizados para los componentes 
+- css debe estar en un archivo 
+
+Github
+- Proyecto deployado en github

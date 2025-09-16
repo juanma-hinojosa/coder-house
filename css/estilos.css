@@ -1,0 +1,128 @@
+:root {
+    --color-p: rgb(156, 156, 156)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", monospace;
+}
+
+.link-button {
+    background-color: cornflowerblue;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+}
+
+/* inicio del navbar */
+header {
+    width: 100%;
+    margin: auto;
+}
+/* fin del navabar  */
+
+/* comienzo hero section  */
+.hero-container {
+    min-height: 100vh;
+    background-image: url("../img/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hero-container div p {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* fin hero section  */
+
+
+/* comienzo de nosotros */
+.nosotros-container {
+    background-color: rgb(255, 253, 253);
+    justify-items: center;
+}
+
+.nosotros-container .nosotros-info-container {
+    max-width: 1280px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.nosotros-container .nosotros-info-container div p {
+    margin-bottom: 20px;
+}
+
+
+.box-container {
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(231, 231, 231);
+    padding: 10px;
+    text-align: center;
+    color: rgb(15, 15, 15);
+}
+
+.box-container strong {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.box-container p {
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+/* fin de nosotros */
+
+
+/* comienzo de servicios */
+.services-container {
+    background-color: rgb(243, 242, 242);
+    justify-items: center;
+}
+
+.card-service {
+    background-color: #ffffff;
+    border: 1px solid rgb(235, 233, 233);
+    padding: 10px;
+    text-align: center;
+}
+.card-service img {
+    width: 80px;
+}
+ .card-service p {
+    color: rgb(104, 103, 103);
+    font-size: .9rem;
+    font-weight: 300;
+}
+/* fin de servicios */
+
+/* comienzo proyecto */
+.proyectos-container {
+    justify-items: center;
+}
+
+
+.card-proyecto img{
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* fin proyecto */
+
+
+footer {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
