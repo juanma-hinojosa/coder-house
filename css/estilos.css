@@ -21,6 +21,7 @@ header {
     width: 100%;
     margin: auto;
 }
+
 /* fin del navabar  */
 
 /* comienzo hero section  */
@@ -83,41 +84,6 @@ header {
 
 /* fin de nosotros */
 
-
-/* comienzo de servicios */
-.services-container {
-    background-color: rgb(243, 242, 242);
-    justify-items: center;
-}
-
-.card-service {
-    background-color: #ffffff;
-    border: 1px solid rgb(235, 233, 233);
-    padding: 10px;
-    text-align: center;
-}
-.card-service img {
-    width: 80px;
-}
- .card-service p {
-    color: rgb(104, 103, 103);
-    font-size: .9rem;
-    font-weight: 300;
-}
-/* fin de servicios */
-
-/* comienzo proyecto */
-.proyectos-container {
-    justify-items: center;
-}
-
-
-.card-proyecto img{
-    width:  100%;
-    height: 100%;
-    object-fit: cover;
-}
-/* fin proyecto */
 
 
 footer {

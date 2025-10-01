@@ -1,0 +1,18 @@
+$bg-azul: cornflowerblue;
+$bg-azul-hover: rgb(63, 122, 231);
+
+
+.button-linear {
+  padding: 10px 30px;
+  background-color: transparent;
+  color: $bg-azul;
+  border-radius: 4px;
+  border: 2px solid $bg-azul;
+  text-decoration: none;
+  transition: .3s;
+  &:hover {
+    background-color: $bg-azul;
+    color: white;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,24 @@
+.max-width-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.container-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.container-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+
+@media (max-width: 400px) {
+  .container-projects {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}

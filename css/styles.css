@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", monospace;
+}
+
+.max-width-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.container-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.container-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 400px) {
+  .container-projects {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+.hero-container {
+  width: 100%;
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.hero-container .container-img {
+  width: 100%;
+  max-width: 1280px;
+  padding: 20px;
+}
+.hero-container .container-img .text {
+  max-width: 600px;
+}
+.hero-container .container-img .text h2 {
+  font-size: 3rem;
+  line-height: 50px;
+}
+
+@media (max-width: 600px) {
+  .hero-container {
+    text-align: center;
+  }
+}
+.section-header-title-white {
+  max-width: 600px;
+  padding: 40px 0;
+  color: white;
+}
+.section-header-title-white h2 {
+  font-size: 40px;
+}
+
+.section-header-title-black {
+  max-width: 600px;
+  padding: 40px 0;
+  color: black;
+}
+.section-header-title-black h2 {
+  font-size: 40px;
+}
+
+.card-proyecto .container-img {
+  height: 500px;
+  overflow: hidden;
+}
+.card-proyecto .container-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.card-proyecto .card-body {
+  padding: 10px;
+}
+.card-proyecto .card-body .card-title-white {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: aliceblue;
+}
+.card-proyecto .card-body .card-title-black {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+.card-proyecto .card-body .card-text-white {
+  font-size: 1rem;
+  color: aliceblue;
+}
+.card-proyecto .card-body .card-text-black {
+  color: black;
+  font-size: 1rem;
+}
+
+.card-service {
+  background-color: #ffffff;
+  border: 1px solid rgb(235, 233, 233);
+  padding: 40px 10px;
+  text-align: center;
+}
+.card-service img {
+  width: 80px;
+}
+.card-service h3 {
+  font-size: 1rem;
+}
+.card-service p {
+  color: rgb(104, 103, 103);
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.button-bg {
+  padding: 10px 30px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.button-bg:hover {
+  background-color: rgb(63, 122, 231);
+  cursor: pointer;
+}
+
+.button-linear {
+  padding: 10px 30px;
+  background-color: transparent;
+  color: cornflowerblue;
+  border-radius: 4px;
+  border: 2px solid cornflowerblue;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.button-linear:hover {
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */

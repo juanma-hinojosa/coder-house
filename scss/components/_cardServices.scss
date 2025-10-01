@@ -1,0 +1,21 @@
+$bg-color: #ffffff;
+
+.card-service {
+  background-color: $bg-color;
+  border: 1px solid rgb(235, 233, 233);
+  padding: 40px 10px;
+  text-align: center;
+
+  img {
+    width: 80px;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    color: rgb(104, 103, 103);
+    font-size: .9rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+}

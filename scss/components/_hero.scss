@@ -1,0 +1,32 @@
+.hero-container {
+  width: 100%;
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  color: white;
+
+  .container-img {
+    width: 100%;
+    max-width: 1280px;
+    padding: 20px;
+
+    .text {
+      max-width: 600px; 
+      h2 {
+        font-size: 3rem;
+        line-height: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-container {
+    text-align: center;
+  }
+}
