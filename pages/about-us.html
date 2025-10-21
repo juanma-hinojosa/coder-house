@@ -4,8 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nosotros</title>
-  <meta name="description" content="Mi primer semana en coder house">
+  <title>SMIVE | Nosotros</title>
+
+  <meta name="description" content="SMIVE Servicios de reparaciones y mantenimiento integral del hogar">
+  <meta name="keywords"
+    content="reparaciones, mantenimiento, hogar, servicios, construccion, plomeria, electricidad, pintura, reformas">
+
+  <!-- open graph -->
+  <meta property="og:title" content="SMIVE Reparaciones y Mantenimiento">
+  <meta property="og:description" content="SMIVE Servicios de reparaciones y mantenimiento integral del hogar">
+  <meta property="og:image" content="https://juanma-hinojosa.github.io/coder-house/img/hero-graph.png">
+  <meta property="og:url" content="https://juanma-hinojosa.github.io/coder-house/">
+  <meta property="og:type" content="website">
+
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="../img/logo.webp" type="image/webp">
 
   <!-- fuente de google -->
 
@@ -19,6 +32,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/estilos.css">
+
+  <!-- animaciones aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -68,7 +84,8 @@
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">SMIVE Refacciones y mantenimiento integral del
               hogar</h1>
-            <p class="lead">Somos una empresa seria y nos gustaria trabajar con vos y darte algunos consejos para el cuidado de tu hogar</p>
+            <p class="lead">Somos una empresa seria y nos gustaria trabajar con vos y darte algunos consejos para el
+              cuidado de tu hogar</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Saber Mas</button>
               <a class="btn btn-outline-secondary btn-lg px-4" href="./contact.html" role="button">Contactanos</a>
@@ -89,7 +106,7 @@
       <h2>Como cuidar el hogar</h2>
 
       <div class="row row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
+        <div class="col" data-aos="fade-up">
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4">
@@ -98,7 +115,8 @@
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">Como Cambiar cuerito de la canilla</h5>
-                  <p class="card-text">El cambio de un cuerito de un vastago de una canilla es la solucioin mas simple que existe</p>
+                  <p class="card-text">El cambio de un cuerito de un vastago de una canilla es la solucioin mas simple
+                    que existe</p>
                   <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
               </div>
@@ -106,7 +124,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="fade-up">
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4">
@@ -123,7 +141,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="fade-up">
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4">
@@ -132,7 +150,8 @@
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">Cuidar teclas de luz</h5>
-                  <p class="card-text">El cuidado de las teclas para prevenir futuros cambios de bastidores completos</p>
+                  <p class="card-text">El cuidado de las teclas para prevenir futuros cambios de bastidores completos
+                  </p>
                   <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
               </div>
@@ -171,6 +190,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+
+  <!-- animaciones AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
